@@ -39,3 +39,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: mvn -B verify sonar:sonar -Dmaven.test.failure.ignore=true
 
+
